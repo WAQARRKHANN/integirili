@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="img/home/7.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <title>Leave</title><!-- themeforest:css -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cookieconsent.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/odometer-theme-minimal.css">
+    <link rel="stylesheet" href="css/prism-okaidia.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/smart_wizard_all.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/dashcore.css">
+    <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+    </script>
+    <script type = "text/javascript">
+       google.charts.load('current', {packages: ['corechart']});     
+    </script>
+    <!-- endinject -->
+</head>
+<style>
+    .navigation.fixed-top .nav-link{
+        color: #000;
+    }
+    hr{
+        margin: 2em 0;
+        
+    }
+    .hr{
+        margin-top: 49%;
+    }
+    label{
+        padding-top: 4%;
+        font-size: 12px;
+        width: 41%;
+    }
+    span{
+        font-size: 12px;
+        color: #000;
+        font-weight: 500;
+    }
+</style>
+<body>
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <!-- ./Making stripe menu navigation -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item"><a href="index.html" class="navbar-brand"><img src="img/padlock-old.png" alt="Dashcore" class="logo logo-sticky"></a></li>
+                <li class="st-nav-section st-nav-primary stick-right nav-item"><a class="st-root-link nav-link" href="index.html">Home</a> <a class="st-root-link item-products st-has-dropdown nav-link" href="pricing.html" data-dropdown="blocks">Prices</a> 
+                    <a class="st-root-link item-products st-has-dropdown nav-link" href="feature.html">Features</a> <a class="st-root-link item-company st-has-dropdown nav-link" href="contact.html" >Request Demo</a> </li>
+                       
+                <li class="st-nav-section st-nav-mobile nav-item"><button class="st-root-link navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                    <div class="st-popup">
+                        <div class="st-popup-container"><a class="st-popup-close-button">Close</a>
+                            <div class="st-dropdown-content-group">
+                                <h4 class="text-uppercase regular">Pages</h4><a class="regular text-primary" href="about.html"><i class="far fa-building me-2"></i> About </a><a class="regular text-success" href="contact.html"><i class="far fa-envelope me-2"></i> Contact </a><a class="regular text-warning" href="pricing.html"><i class="fas fa-hand-holding-usd me-2"></i> Pricing </a><a class="regular text-info" href="faqs.html"><i class="far fa-question-circle me-2"></i> FAQs</a>
+                            </div>
+                            <!-- <div class="st-dropdown-content-group border-top bw-2">
+                                <h4 class="text-uppercase regular">Components</h4>
+                                <div class="row">
+                                    <div class="col me-4"><a target="_blank" href="components/alert.html">Alerts</a> <a target="_blank" href="components/badge.html">Badges</a> <a target="_blank" href="components/button.html">Buttons</a> <a target="_blank" href="components/color.html">Colors</a> <a target="_blank" href="components/accordion.html">Accordion</a> <a target="_blank" href="components/cookie-law.html">Cookielaw</a></div>
+                                    <div class="col me-4"><a target="_blank" href="components/overlay.html">Overlay</a> <a target="_blank" href="components/progress.html">Progress</a> <a target="_blank" href="components/lightbox.html">Lightbox</a> <a target="_blank" href="components/tab.html">Tabs</a> <a target="_blank" href="components/tables.html">Tables</a> <a target="_blank" href="components/typography.html">Typography</a></div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="st-dropdown-content-group bg-light b-t"><a href="login.html">Sign in <i class="fas fa-arrow-right"></i></a></div> -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+       
+    </nav>
+
+    <!---mobile-nav-->
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html" class="active">
+              <img src="img/padlock-old.png" alt="" width="40%">
+          </a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Prices</a>
+            <a href="feature.html">Features</a>
+            <a href="contact.html">Request Demo</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <!-- End smartphone / tablet look -->
+        </div>
+
+    <main class="overflow-hidden" style="background-color: #f5f4f5;">
+       <section style="background-color: #f5f4f5;padding-top: 4%;">
+           <div class="container">
+               <div class="row">
+                <div class="col-lg-6">
+                    <div data-aos="fade-right" class="hd-hr" >
+                        <h2>Attendance
+                           <br>and Leave</h2>
+                    </div>
+                    <div class="snd-hro" style="display:flex;">
+                        <div class="img-hr-3">
+                            <img data-aos="fade-right" src="img/home/milad-fakurian-pPTw_RTkvXQ-unsplash.jpg" alt="" style="min-height:335px ;width: 100%;    max-width: 1165px;">
+                        </div>
+                        <div data-aos="zoom-in" class="txt-hr" style="padding-left:3% ;">
+                            <h6>
+                                Manual leave requests and
+                                approvals are a thing of the
+                                past, so is check-in and
+                                check-out. You are always in
+                                sync with your on-site device.
+                            </h6>
+                          <div class="dmo-hr">
+                            <a href="" class="hr-btn-demo">View Demo</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hr-hro-img">
+                        <img data-aos="fade-left" src="img/home/intg-dsh.png" alt="" width="100%">
+                    </div>
+                </div>
+
+
+               </div>
+            
+           </div>
+       </section>
+
+<section>
+    <div class="container container-bdy" style="background-color: #fff; padding-left: 112px
+    ">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="hr-txt-img">
+                    <img data-aos="fade-right" src="img/home/rabie-madaci-4iwG8QD17AE-unsplash.jpg" alt=""style="width:100%;transform: scaleX(-1);">
+                   
+                </div>
+           <div data-aos="zoom-in" class="clndr">
+               <h6 style="font-size: 14px;font-weight:600;">
+                Adjustment
+               </h6>
+               <label for="" style="width: 39%;">Name: </label><span style="font-size: 12px;font-weight:600;">Sarah Singh (F-0034)</span> <br>
+               <label for="">Date: </label><span  style="font-size: 12px;font-weight:600;">June 4th, 2022</span>
+               <div class="clnd">
+         <label for="">Check-in Time: </label><span> <input type="date" name="" id="" style="width: 57%;"></span> <br>
+         <label for="">Check-in Time: </label><span> <input type="date" name="" id="" style="width: 57%;"></span>
+         <br>
+         <input type="submit" value="Submit Request" style="margin-top: 14%;margin-bottom:3%; background-color: #c6eef4;border: none;padding: 6px 18px 6px 18px;border-radius: 5px;">
+               </div>
+           </div>
+            </div>
+            <div class="col-lg-6">
+                <div data-aos="fade-left" class="txt-hr-5">
+                    <h2>
+                        Time <br>
+                        Adjustment <br>
+                        Made Easy <br>
+                    </h2>
+                    <h6>
+                        Forgot to check-in / check-
+                        out or working late? Get
+                        your hours on track with
+                        the leave adjustment tool
+                        to notify management in 
+                        a breeze. 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="background-color: #ffb78b;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div data-aos="fade-right" class="txt-hr-5">
+                    <h2>
+                        Leave <br>
+                         Application
+                    </h2>
+                    <h6>
+                        Its time to bid farewell to long
+                        email requests and figuring
+                        out what to write. Fill out
+                        Integrili's leave application
+                        form in under a minute and
+                        plan your holiday!    
+                    </h6>
+                </div>
+            </div>
+            <div class="col-lg-5">
+               <div class="dprtmnt-shft">
+                  
+                   <img data-aos="fade-left" src="img/home/flamingo.png" alt="" style="width:100%; ">
+                   <div class="dte-form">
+                       
+                    <form action="">
+                        <div data-aos="zoom-in" class="clndr1">
+                            <h6 style="font-size: 14px;font-weight:600;">
+                                Leave Application Form
+                            </h6>
+                            <label for="" style="width: 39%;">Name: </label><span style="font-size: 12px;font-weight:600;">Katlyn Harris (M-0006)</span>
+                            <div class="clnd">
+                        <label for="">Leave Type:</label> <span>      <input type="text" name="" id="" style="width: 57%;"></span> <br>
+                      <label for="">Days Applied: </label><span>      <input type="text" name="" id=""style="width: 57%;"></span>     
+                      <label for="">Leave Start Date: </label> <span><input type="date" name="" id="" style="width: 57%;"></span> <br>
+                      <label for="">Leave End Date:</label> <span>      <input type="date" name="" id=""style="width: 57%;"></span> <br>
+                      <label for="">Reson:</label> <span>      <input type="text" name="" id=""style="width: 57%;"></span>
+                      <br>
+                      <input type="submit" value="Submit Request" style="margin-top: 14%;margin-bottom:3%; background-color: #FA8282;border: none;padding: 6px 18px 6px 18px;border-radius: 5px;">
+                            </div>
+                        </div> 
+
+                    </form>
+                   </div>
+
+               </div>
+               
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<footer style="padding-top: 10%;padding-bottom:10%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+            <div class="ftr-link">
+                <h4>About</h4>
+                <li>
+                    <a href="">Why Integrili</a>
+                </li>
+               <li>
+                <a href="">Our Story</a>
+               </li>
+               <li>
+                <a href="">Our Values</a>
+               </li>
+          <li>
+            <a href="">Leadership</a>
+          </li>
+             <li>
+                <a href="">Careers</a>
+             </li>
+             
+         
+            </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="ftr-link">
+                    <h4>Features</h4>
+                    <li>
+                        <a href="">Advanced HR Analytics</a>
+                    </li>
+                   <li>
+                    <a href="">Attendance</a>
+                   </li>
+                   <li>
+                    <a href="">Leave</a>
+                   </li>
+              <li>
+                <a href="">Benefits</a>
+              </li>
+                 <li>
+                    <a href="">Employee Management</a>
+                 </li>
+                 <li>
+                    <a href="">Awards & Certifications</a>
+                   </li>
+                   <li>
+                    <a href="">Payroll</a>
+                   </li>
+              <li>
+                <a href="">Recruitment</a>
+              </li>
+                 <li>
+                    <a href="">Onboarding</a>
+                 </li>
+             
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-3">
+                <div class="ftr-logo">
+                    <a href="">
+                        <a href="">
+                            <img src="img/padlock-old.png" alt="" width="46%">
+                        </a>
+                    </a>
+                </div>
+                <div class="opf">
+                    <li>
+                        <a href="">hello@integrili.com</a>
+                    </li>
+                <li>
+                    <a href="">+65 6809 7405</a>
+                </li>
+                    
+                </div>
+            <div class="adres-hd">
+                <h4>
+                    Headquarters
+                </h4>
+                <p>
+                    30 Cecil Street # 19-08 <br> Prudential Tower Singapore
+                </p>
+            </div>
+
+           <div class="social-liks">
+                <a href=""><img src="img/home/fb.png" alt="" width="9%"></a>
+                <a href=""><img src="img/home/linkedin.png" alt=""width="9%"></a>
+                <a href=""><img src="img/home/insta.png" alt=""width="9%"></a>    
+                <a href=""><img src="img/home/twtr.png" alt=""width="9%"></a>
+           </div>
+         </div>
+        </div>
+    </div>
+</footer>
+</main><!-- themeforest:js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/counterup2.js"></script>
+    <script src="js/noise.js"></script>
+    <script src="js/noframework.waypoints.js"></script>
+    <script src="js/odometer.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/simplebar.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.smartWizard.js"></script>
+    <script src="js/feather.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/cookieconsent.js"></script>
+    <script src="js/jquery.animatebar.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/stripe-bubbles.js"></script>
+    <script src="js/stripe-menu.js"></script>
+    <script src="js/credit-card.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/wizards.js"></script>
+    <script src="js/cookie-consent-util.js"></script>
+    <script src="js/cookie-consent-themes.js"></script>
+    <script src="js/cookie-consent-custom-css.js"></script>
+    <script src="js/cookie-consent-informational.js"></script>
+    <script src="js/cookie-consent-opt-out.js"></script>
+    <script src="js/cookie-consent-opt-in.js"></script>
+    <script src="js/cookie-consent-location.js"></script>
+    <script src="js/demo.js"></script>
+    <!-- endinject -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        <script>
+             
+        // Load google charts
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', ''],
+                ['Project', 20],
+                ['Engineering', 28],
+                ['Business Development', 10],
+                ['Procurement', 5.3],
+                ['Finance', 3.5],
+                ['Hr', 4.3],
+                ['Finance', 5.3],
+
+            ]);
+
+            // Optional; add a title and set the width and height of the chart
+            var options = {
+                'width': 300, 'height': 300,
+                colors: [ '#5c5764','#7b7e8a','#a1a8af','#e7fcff','#bfd0d9','#9ba6b2','#7b7e8a'],
+                fontName: 'Arial',
+                is3D: false,
+                pieStartAngle: 100,
+                pieSliceBorderColor: "transparent",
+                tooltip: {
+                    textStyle: { color: '#333' },
+                    showColorCode: false,
+                    text: 'value',
+                },
+
+                legend: {
+                    'position': 'bottom', 'alignment': 'center',
+                    textStyle: { color: '#333', fontSize: 16 },
+
+                },
+                pieSliceText: 'none',  
+            };
+
+
+
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+
+
+            
+        }
+  
+        </script>
+        
+</body>
+
+</html>
